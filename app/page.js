@@ -63,6 +63,14 @@ const experiencia = [
 
 const proyectos = [
   {
+    titulo: 'CTSA Field OS — App de seguridad alimentaria',
+    descripcion:
+      'Aplicación web real para CTSA Alimentaria (proyecto de cliente, marca JAKS): digitaliza inspecciones APPCC, muestras, cloro y REVET con firma digital, PDF automático y envío por email.',
+    etiquetas: ['Next.js', 'Supabase', 'n8n', 'IA'],
+    imagen: '/images/ctsa-login.png',
+    href: '/ctsa-field-os/'
+  },
+  {
     titulo: 'TFM — Sistema Integral de BI para Altadis',
     descripcion:
       'Del dato a la decisión: ETL en R, Data Warehouse en PostgreSQL (modelo en estrella) y dashboards ejecutivos en Power BI con clustering y modelos predictivos.',
@@ -175,11 +183,13 @@ export default function Inicio() {
                 <li>ETL y modelado: Data Warehouse, consultas SQL optimizadas</li>
                 <li>Análisis estadístico y Machine Learning (clustering, modelos predictivos)</li>
                 <li>Automatización de procesos y flujos de datos (Power Query, n8n)</li>
+                <li>Desarrollo de aplicaciones web con IA: Next.js, Supabase y asistentes como Claude</li>
                 <li>Administración de plataformas de reporting y formación a usuarios</li>
               </ul>
               <div className="badges">
                 <span>Power BI</span><span>SQL</span><span>PostgreSQL</span><span>R</span>
-                <span>Python</span><span>Metabase</span><span>n8n</span>
+                <span>Python</span><span>Metabase</span><span>n8n</span><span>IA (Claude)</span>
+                <span>Next.js</span><span>Supabase</span>
               </div>
             </div>
           </div>
