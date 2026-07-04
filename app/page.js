@@ -7,7 +7,7 @@ const experiencia = [
   {
     puesto: 'Controller Financiero',
     empresa: 'Grupo Vectalia',
-    fechas: 'Feb. 2026 — May. 2026 · Alicante',
+    fechas: 'Ene. 2026 — May. 2026 · Alicante · Cobertura de baja por maternidad',
     puntos: [
       'Consolidación y control presupuestario del grupo: validación de presupuestos frente a históricos y seguimiento estricto de desviaciones.',
       'Análisis de rentabilidad por unidad de negocio: ratios financieros, márgenes operativos y cuenta de resultados.',
