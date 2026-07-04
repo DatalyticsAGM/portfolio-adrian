@@ -95,8 +95,26 @@ export default function TfmAltadis() {
             <span>R / tidyverse</span><span>SQL</span><span>PostgreSQL</span><span>Data Warehouse</span>
             <span>Power BI</span><span>DAX</span><span>K-Means</span><span>PCA</span><span>ETL</span>
           </div>
-          <p className="nota" style={{ marginTop: '2rem' }}>
-            ¿Quieres ver la presentación completa y los dashboards? Está publicada en{' '}
+        </div>
+      </section>
+
+      <section className="seccion gris">
+        <div className="contenedor" style={{ textAlign: 'center' }}>
+          <h2 className="titulo-seccion">Documentación del Proyecto</h2>
+          <p className="subtitulo-seccion">
+            Consulta el documento completo aquí mismo o descárgalo en PDF.
+          </p>
+          <a href="/docs/tfm-altadis.pdf" download className="boton grande">
+            Descargar el TFM (PDF)
+          </a>
+          <div className="cv-visor" style={{ marginTop: '2rem' }}>
+            <iframe
+              src="/docs/tfm-altadis.pdf"
+              title="TFM: Sistema Integral de BI para Altadis"
+            />
+          </div>
+          <p className="nota" style={{ marginTop: '1.5rem' }}>
+            También publicado en{' '}
             <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>
               mi perfil de LinkedIn
             </a>.
