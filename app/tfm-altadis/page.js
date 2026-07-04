@@ -55,6 +55,23 @@ export default function TfmAltadis() {
 
       <section className="seccion gris">
         <div className="contenedor">
+          <h2 className="titulo-seccion">El Dashboard en Acción</h2>
+          <p className="subtitulo-seccion">
+            Recorrido en vídeo por el reporte interactivo de Power BI: ventas, envíos, roturas de
+            stock y rutas.
+          </p>
+          <div className="linkedin-embed">
+            <iframe
+              src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7429434632561102848"
+              title="Vídeo del dashboard del TFM en Power BI"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="seccion">
+        <div className="contenedor">
           <h2 className="titulo-seccion">Qué incluye el sistema</h2>
           <div className="bloque-analisis">
             <div className="grafico">
