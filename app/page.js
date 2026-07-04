@@ -130,6 +130,15 @@ const proyectos = [
     imagen: '/images/logo-ajprotect.jpg',
     href: 'https://ajprotect.com',
     externo: true
+  },
+  {
+    titulo: 'JAKS — Automatizaciones para PyMEs',
+    descripcion:
+      'Mi marca de automatización y soluciones digitales: chatbots de IA en WhatsApp, flujos automatizados, integraciones y dashboards para que los negocios escalen sin más horas de trabajo.',
+    etiquetas: ['Automatización', 'IA', 'n8n'],
+    imagen: '/images/logo-jaks.png',
+    href: 'https://jaks.es',
+    externo: true
   }
 ];
 
