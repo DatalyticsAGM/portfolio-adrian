@@ -102,7 +102,30 @@ export default function TfmAltadis() {
         <div className="contenedor" style={{ textAlign: 'center' }}>
           <h2 className="titulo-seccion">Documentación del Proyecto</h2>
           <p className="subtitulo-seccion">
-            Consulta el documento completo aquí mismo o descárgalo en PDF.
+            Consulta la presentación y el documento completo aquí mismo, o descárgalos en PDF.
+          </p>
+
+          <h3 style={{ marginTop: '2.5rem', letterSpacing: '0.06em', textTransform: 'uppercase' }}>
+            La Presentación
+          </h3>
+          <p className="subtitulo-seccion" style={{ marginBottom: '1.2rem' }}>
+            Las diapositivas defendidas ante el tribunal.
+          </p>
+          <a href="/docs/tfm-altadis-presentacion.pdf" download className="boton grande">
+            Descargar la presentación (PDF)
+          </a>
+          <div className="cv-visor" style={{ marginTop: '2rem' }}>
+            <iframe
+              src="/docs/tfm-altadis-presentacion.pdf"
+              title="Presentación del TFM: Sistema Integral de BI para Altadis"
+            />
+          </div>
+
+          <h3 style={{ marginTop: '3.5rem', letterSpacing: '0.06em', textTransform: 'uppercase' }}>
+            El Documento Completo
+          </h3>
+          <p className="subtitulo-seccion" style={{ marginBottom: '1.2rem' }}>
+            La memoria del Trabajo de Fin de Máster.
           </p>
           <a href="/docs/tfm-altadis.pdf" download className="boton grande">
             Descargar el TFM (PDF)
