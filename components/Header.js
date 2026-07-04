@@ -6,9 +6,10 @@ import { usePathname } from 'next/navigation';
 
 const enlaces = [
   { href: '/', texto: 'Inicio' },
-  { href: '/tfg-leroy-merlin/', texto: 'TFG Leroy Merlin' },
-  { href: '/clinica-avdental/', texto: 'Clínica AVdental' },
-  { href: '/dashboards/', texto: 'Dashboards' },
+  { href: '/#experiencia', texto: 'Experiencia' },
+  { href: '/#proyectos', texto: 'Proyectos' },
+  { href: '/#formacion', texto: 'Formación' },
+  { href: '/#contacto', texto: 'Contacto' },
   { href: '/cv/', texto: 'CV' }
 ];
 
