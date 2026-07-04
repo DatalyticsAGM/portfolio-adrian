@@ -1,0 +1,10 @@
+# Dependencias
+node_modules/
+
+# Carpetas de build (Netlify las genera automáticamente)
+.next/
+out/
+
+# Sistema
+.DS_Store
+Thumbs.db
