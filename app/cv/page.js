@@ -1,8 +1,6 @@
-const CV_URL = 'https://drive.google.com/file/d/1I7ItXnAjj808H3tF4zXLUz8hAfddHyax';
-
 export const metadata = {
   title: 'Currículum Vitae — Adrián Gallardo',
-  description: 'Currículum vitae de Adrián Gallardo, Data Analyst.'
+  description: 'Currículum vitae de Adrián Gallardo, Controller Financiero y Data Analyst. Disponible en español e inglés.'
 };
 
 export default function Cv() {
@@ -17,18 +15,18 @@ export default function Cv() {
         <div className="contenedor" style={{ textAlign: 'center' }}>
           <h2 className="titulo-seccion">Adrián Gallardo — CV</h2>
           <p className="subtitulo-seccion">
-            Puedes consultarlo aquí mismo o descargarlo en PDF.
+            Consúltalo aquí mismo o descárgalo en el idioma que prefieras.
           </p>
-          <a
-            href={`${CV_URL}/view?usp=drive_link`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="boton grande"
-          >
-            Click aquí para descargar CV
-          </a>
+          <div className="contacto-botones" style={{ marginBottom: '1rem' }}>
+            <a href="/docs/cv-adrian-es.pdf" download className="boton grande">
+              Descargar CV en Español
+            </a>
+            <a href="/docs/cv-adrian-en.pdf" download className="boton grande secundario" style={{ borderColor: 'var(--azul-oscuro)', color: 'var(--azul-oscuro)' }}>
+              Download CV in English
+            </a>
+          </div>
           <div className="cv-visor">
-            <iframe src={`${CV_URL}/preview`} title="Currículum vitae de Adrián Gallardo" />
+            <iframe src="/docs/cv-adrian-es.pdf" title="Currículum vitae de Adrián Gallardo" />
           </div>
         </div>
       </section>

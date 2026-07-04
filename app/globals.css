@@ -60,6 +60,13 @@ img { max-width: 100%; height: auto; display: block; }
   transition: opacity 0.2s, border-color 0.2s;
 }
 .nav a:hover, .nav a.activo { opacity: 1; border-bottom-color: var(--blanco); }
+.nav a.idioma {
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+  border-radius: 999px;
+  padding: 0.25rem 0.8rem;
+  opacity: 1;
+}
+.nav a.idioma:hover { background: rgba(255, 255, 255, 0.15); border-bottom-color: transparent; }
 .menu-btn {
   display: none;
   background: none;

@@ -1,4 +1,4 @@
-const CV_URL = 'https://drive.google.com/file/d/1I7ItXnAjj808H3tF4zXLUz8hAfddHyax/view?usp=drive_link';
+const CV_URL = '/docs/cv-adrian-es.pdf';
 const LINKEDIN_URL = 'https://www.linkedin.com/in/adriangallardomu%C3%B1oz/';
 
 export default function Footer() {
@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-inner">
         <p>
-          Correo: <a href="mailto:adriangallardogm@gmail.com">adriangallardogm@gmail.com</a>
+          Email: <a href="mailto:adriangallardogm@gmail.com">adriangallardogm@gmail.com</a>
         </p>
         <div className="iconos">
           <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
