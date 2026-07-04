@@ -67,9 +67,8 @@ const proyectos = [
     descripcion:
       'Del dato a la decisión: ETL en R, Data Warehouse en PostgreSQL (modelo en estrella) y dashboards ejecutivos en Power BI con clustering y modelos predictivos.',
     etiquetas: ['R', 'PostgreSQL', 'Power BI', 'Machine Learning'],
-    imagen: '/images/tfm-portada.jpg',
-    href: '/tfm-altadis/',
-    cubrir: true
+    imagen: '/images/logo-imperial-altadis.jpg',
+    href: '/tfm-altadis/'
   },
   {
     titulo: 'TFG — Leroy Merlin',
