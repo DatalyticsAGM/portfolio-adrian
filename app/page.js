@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const CV_URL = 'https://drive.google.com/file/d/1I7ItXnAjj808H3tF4zXLUz8hAfddHyax/view?usp=drive_link';
+const CV_URL = '/docs/cv-adrian-es.pdf';
 const LINKEDIN_URL = 'https://www.linkedin.com/in/adriangallardomu%C3%B1oz/';
 
 const experiencia = [
@@ -160,7 +160,7 @@ export default function Inicio() {
             <p className="hero-ubicacion">📍 Alicante, España · Disponible para nuevos retos</p>
             <div className="hero-botones">
               <a href="#proyectos" className="boton grande">Ver proyectos</a>
-              <a href={CV_URL} target="_blank" rel="noopener noreferrer" className="boton grande secundario">
+              <a href={CV_URL} download className="boton grande secundario">
                 Descargar CV
               </a>
             </div>
