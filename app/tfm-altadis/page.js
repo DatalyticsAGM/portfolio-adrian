@@ -75,7 +75,10 @@ export default function TfmAltadis() {
           <h2 className="titulo-seccion">Qué incluye el sistema</h2>
           <div className="bloque-analisis">
             <div className="grafico">
-              <img src="/images/card-dashboards.jpg" alt="Dashboard ejecutivo en Power BI" />
+              <img
+                src="/images/tfm-portada.jpg"
+                alt="Portada del reporte de Power BI para Imperial Brands (Altadis)"
+              />
             </div>
             <div>
               <h3>Cuatro ejes de análisis</h3>
