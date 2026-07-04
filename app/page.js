@@ -121,6 +121,15 @@ const proyectos = [
     href: 'https://avgrupoelcampello.com',
     externo: true,
     cubrir: true
+  },
+  {
+    titulo: 'Web AJ Protect Iberia',
+    descripcion:
+      'Landing corporativa B2B para AJ Protect Iberia, empresa de servicios eléctricos con proyectos en España y Reino Unido: diseño moderno orientado a captación de clientes.',
+    etiquetas: ['Desarrollo web', 'B2B'],
+    imagen: '/images/logo-ajprotect.jpg',
+    href: 'https://ajprotect.com',
+    externo: true
   }
 ];
 
