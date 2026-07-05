@@ -68,14 +68,6 @@ const experiencia = [
 
 const proyectos = [
   {
-    titulo: 'CTSA Field OS — Food-safety app',
-    descripcion:
-      'Real client application for CTSA Alimentaria (client project, JAKS brand): digitalises HACCP inspections, sampling, chlorine control and REVET with digital signature, automatic PDF and email delivery.',
-    etiquetas: ['Next.js', 'Supabase', 'n8n', 'AI'],
-    imagen: '/images/ctsa-login.png',
-    href: '/en/ctsa-field-os/'
-  },
-  {
     titulo: 'Master’s Thesis — End-to-End BI System for Altadis',
     descripcion:
       'From data to decision: ETL in R, PostgreSQL Data Warehouse (star schema) and executive Power BI dashboards with clustering and predictive models.',
@@ -92,30 +84,21 @@ const proyectos = [
     href: '/en/tfg-leroy-merlin/'
   },
   {
+    titulo: 'JAKS — Automation for SMEs',
+    descripcion:
+      'My automation and digital solutions brand: AI chatbots on WhatsApp, automated workflows, integrations and dashboards so businesses can scale without extra working hours.',
+    etiquetas: ['Automation', 'AI', 'n8n'],
+    imagen: '/images/logo-jaks.png',
+    href: 'https://jaks.es',
+    externo: true
+  },
+  {
     titulo: 'AVdental Clinic — Customer segmentation',
     descripcion:
       'Identified the target audience for marketing campaigns: women interested in aesthetic treatments during autumn and winter.',
     etiquetas: ['R', 'Power BI', 'Excel'],
     imagen: '/images/card-avdental.png',
     href: '/en/clinica-avdental/'
-  },
-  {
-    titulo: 'Dashboards & automations',
-    descripcion:
-      'HR dashboard, database automation with Power Query, a B2B portal and a world population & life expectancy analysis.',
-    etiquetas: ['Power BI', 'Power Query'],
-    imagen: '/images/dash-rrhh.gif',
-    href: '/en/dashboards/',
-    cubrir: true
-  },
-  {
-    titulo: 'Racks Connect — Startup-investor matchmaking',
-    descripcion:
-      '"Tinder for founders and investors" web app built at Racks House (Madrid): project scoring, real-interest signals and filters by sector, stage and ticket.',
-    etiquetas: ['Business Intelligence', 'Product'],
-    imagen: '/images/logos-tecnologias.png',
-    href: 'https://racksconnect.lovable.app',
-    externo: true
   },
   {
     titulo: 'AV Dental Clinic website',
@@ -137,12 +120,29 @@ const proyectos = [
     externo: true
   },
   {
-    titulo: 'JAKS — Automation for SMEs',
+    titulo: 'CTSA Field OS — Food-safety app',
     descripcion:
-      'My automation and digital solutions brand: AI chatbots on WhatsApp, automated workflows, integrations and dashboards so businesses can scale without extra working hours.',
-    etiquetas: ['Automation', 'AI', 'n8n'],
-    imagen: '/images/logo-jaks.png',
-    href: 'https://jaks.es',
+      'Real client application for CTSA Alimentaria (client project, JAKS brand): digitalises HACCP inspections, sampling, chlorine control and REVET with digital signature, automatic PDF and email delivery.',
+    etiquetas: ['Next.js', 'Supabase', 'n8n', 'AI'],
+    imagen: '/images/ctsa-login.png',
+    href: '/en/ctsa-field-os/'
+  },
+  {
+    titulo: 'Dashboards & automations',
+    descripcion:
+      'HR dashboard, database automation with Power Query, a B2B portal and a world population & life expectancy analysis.',
+    etiquetas: ['Power BI', 'Power Query'],
+    imagen: '/images/dash-rrhh.gif',
+    href: '/en/dashboards/',
+    cubrir: true
+  },
+  {
+    titulo: 'Racks Connect — Startup-investor matchmaking',
+    descripcion:
+      '"Tinder for founders and investors" web app built at Racks House (Madrid): project scoring, real-interest signals and filters by sector, stage and ticket.',
+    etiquetas: ['Business Intelligence', 'Product'],
+    imagen: '/images/logos-tecnologias.png',
+    href: 'https://racksconnect.lovable.app',
     externo: true
   }
 ];
@@ -290,10 +290,6 @@ export default function Home() {
               <p className="formacion-detalle">
                 Thesis: "From Data to Decision — an End-to-End BI System for Altadis".
               </p>
-            </div>
-            <div className="formacion-item">
-              <h3>Advanced University Course: Data Analyst with Power BI</h3>
-              <p>UNIR · 2025</p>
             </div>
             <div className="formacion-item">
               <h3>Bachelor’s Degree in Business Administration and Management</h3>
