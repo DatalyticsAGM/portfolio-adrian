@@ -63,14 +63,6 @@ const experiencia = [
 
 const proyectos = [
   {
-    titulo: 'CTSA Field OS — App de seguridad alimentaria',
-    descripcion:
-      'Aplicación web real para CTSA Alimentaria (proyecto de cliente, marca JAKS): digitaliza inspecciones APPCC, muestras, cloro y REVET con firma digital, PDF automático y envío por email.',
-    etiquetas: ['Next.js', 'Supabase', 'n8n', 'IA'],
-    imagen: '/images/ctsa-login.png',
-    href: '/ctsa-field-os/'
-  },
-  {
     titulo: 'TFM — Sistema Integral de BI para Altadis',
     descripcion:
       'Del dato a la decisión: ETL en R, Data Warehouse en PostgreSQL (modelo en estrella) y dashboards ejecutivos en Power BI con clustering y modelos predictivos.',
@@ -87,30 +79,21 @@ const proyectos = [
     href: '/tfg-leroy-merlin/'
   },
   {
+    titulo: 'JAKS — Automatizaciones para PyMEs',
+    descripcion:
+      'Mi marca de automatización y soluciones digitales: chatbots de IA en WhatsApp, flujos automatizados, integraciones y dashboards para que los negocios escalen sin más horas de trabajo.',
+    etiquetas: ['Automatización', 'IA', 'n8n'],
+    imagen: '/images/logo-jaks.png',
+    href: 'https://jaks.es',
+    externo: true
+  },
+  {
     titulo: 'Clínica AVdental — Segmentación de clientes',
     descripcion:
       'Identificación del público objetivo para campañas de marketing: mujeres interesadas en servicios estéticos en otoño-invierno.',
     etiquetas: ['R', 'Power BI', 'Excel'],
     imagen: '/images/card-avdental.png',
     href: '/clinica-avdental/'
-  },
-  {
-    titulo: 'Dashboards y automatizaciones',
-    descripcion:
-      'Dashboard de RRHH, automatización de bases de datos con Power Query, portal B2B y análisis de población mundial.',
-    etiquetas: ['Power BI', 'Power Query'],
-    imagen: '/images/dash-rrhh.gif',
-    href: '/dashboards/',
-    cubrir: true
-  },
-  {
-    titulo: 'Racks Connect — Matchmaking startups-inversores',
-    descripcion:
-      'Web app tipo "Tinder para emprendedores e inversores" creada en Racks House (Madrid): scoring de proyectos, señales de interés real y filtros por sector, etapa y ticket.',
-    etiquetas: ['Business Intelligence', 'Producto'],
-    imagen: '/images/logos-tecnologias.png',
-    href: 'https://racksconnect.lovable.app',
-    externo: true
   },
   {
     titulo: 'Web Clínica AV Dental',
@@ -132,12 +115,29 @@ const proyectos = [
     externo: true
   },
   {
-    titulo: 'JAKS — Automatizaciones para PyMEs',
+    titulo: 'CTSA Field OS — App de seguridad alimentaria',
     descripcion:
-      'Mi marca de automatización y soluciones digitales: chatbots de IA en WhatsApp, flujos automatizados, integraciones y dashboards para que los negocios escalen sin más horas de trabajo.',
-    etiquetas: ['Automatización', 'IA', 'n8n'],
-    imagen: '/images/logo-jaks.png',
-    href: 'https://jaks.es',
+      'Aplicación web real para CTSA Alimentaria (proyecto de cliente, marca JAKS): digitaliza inspecciones APPCC, muestras, cloro y REVET con firma digital, PDF automático y envío por email.',
+    etiquetas: ['Next.js', 'Supabase', 'n8n', 'IA'],
+    imagen: '/images/ctsa-login.png',
+    href: '/ctsa-field-os/'
+  },
+  {
+    titulo: 'Dashboards y automatizaciones',
+    descripcion:
+      'Dashboard de RRHH, automatización de bases de datos con Power Query, portal B2B y análisis de población mundial.',
+    etiquetas: ['Power BI', 'Power Query'],
+    imagen: '/images/dash-rrhh.gif',
+    href: '/dashboards/',
+    cubrir: true
+  },
+  {
+    titulo: 'Racks Connect — Matchmaking startups-inversores',
+    descripcion:
+      'Web app tipo "Tinder para emprendedores e inversores" creada en Racks House (Madrid): scoring de proyectos, señales de interés real y filtros por sector, etapa y ticket.',
+    etiquetas: ['Business Intelligence', 'Producto'],
+    imagen: '/images/logos-tecnologias.png',
+    href: 'https://racksconnect.lovable.app',
     externo: true
   }
 ];
@@ -286,10 +286,6 @@ export default function Inicio() {
               <p className="formacion-detalle">
                 TFM: "Desde el Dato hasta la Decisión — Sistema Integral de BI para Altadis".
               </p>
-            </div>
-            <div className="formacion-item">
-              <h3>Curso Universitario Avanzado en Data Analyst con Power BI</h3>
-              <p>UNIR · 2025</p>
             </div>
             <div className="formacion-item">
               <h3>Grado en Administración y Dirección de Empresas</h3>
