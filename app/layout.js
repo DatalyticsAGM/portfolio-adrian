@@ -3,17 +3,17 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 export const metadata = {
-  title: 'Adrián Gallardo — Controller Financiero & Data Analyst',
+  title: 'Adrián Gallardo — Data Analyst & Business Intelligence',
   description:
-    'Controller financiero y analista de datos en Alicante: control presupuestario, análisis de rentabilidad, reporting a dirección y Business Intelligence con Power BI, SQL, R y Python.',
+    'Analista de datos y Business Intelligence en Alicante: dashboards en Power BI, ETL con SQL y Python, Machine Learning y reporting. Con base en control de gestión financiero.',
   keywords: [
-    'controller financiero', 'data analyst', 'business intelligence', 'Power BI', 'SQL',
-    'control de gestión', 'reporting', 'presupuestos', 'Alicante'
+    'data analyst', 'business intelligence', 'analista de datos', 'Power BI', 'SQL',
+    'Python', 'machine learning', 'ETL', 'dashboards', 'controller financiero', 'Alicante'
   ],
   openGraph: {
-    title: 'Adrián Gallardo — Controller Financiero & Data Analyst',
+    title: 'Adrián Gallardo — Data Analyst & Business Intelligence',
     description:
-      'Convierto los datos en decisiones de negocio: control presupuestario, reporting y Business Intelligence.',
+      'Convierto los datos en decisiones de negocio: dashboards en Power BI, ETL con SQL y Python, y Machine Learning.',
     type: 'website',
     locale: 'es_ES',
     images: ['/images/foto-adrian.png']

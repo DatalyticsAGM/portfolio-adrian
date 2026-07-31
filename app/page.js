@@ -151,11 +151,11 @@ export default function Inicio() {
             <p className="hero-saludo">Hola, soy</p>
             <h1>Adrián Gallardo</h1>
             <h2>
-              Controller Financiero <span className="amp">&amp;</span> Data Analyst
+              Data Analyst <span className="amp">&amp;</span> Business Intelligence
             </h2>
             <p className="hero-frase">
-              Convierto los datos en decisiones de negocio: control presupuestario, reporting a
-              dirección y Business Intelligence con Power BI, SQL y R.
+              Convierto los datos en decisiones de negocio: dashboards en Power BI, ETL con SQL y
+              Python, y Machine Learning. Con una sólida base en control de gestión financiero.
             </p>
             <p className="hero-ubicacion">📍 Alicante, España · Disponible para nuevos retos</p>
             <div className="hero-botones">
@@ -175,24 +175,11 @@ export default function Inicio() {
         <div className="contenedor">
           <h2 className="titulo-seccion">Un perfil, dos especialidades</h2>
           <p className="subtitulo-seccion">
-            La combinación poco habitual que aporto: el rigor financiero de un controller y las
-            herramientas técnicas de un analista de datos.
+            Analista de datos con una ventaja poco habitual: la visión de negocio de un controller
+            financiero. No solo construyo el dashboard, entiendo qué significa para la cuenta de
+            resultados.
           </p>
           <div className="pilares">
-            <div className="pilar">
-              <div className="pilar-icono">🧮</div>
-              <h3>Controlling Financiero</h3>
-              <ul>
-                <li>Consolidación y control presupuestario; seguimiento de desviaciones</li>
-                <li>Análisis de rentabilidad: ratios, márgenes y cuenta de resultados por unidad de negocio</li>
-                <li>Estudios de viabilidad económica de licitaciones y proyectos</li>
-                <li>Reporting ejecutivo de KPIs a Dirección General</li>
-                <li>Forecast, cierre mensual y apoyo a auditorías</li>
-              </ul>
-              <div className="badges">
-                <span>Excel</span><span>SAP BI</span><span>Odoo ERP</span><span>Power BI</span>
-              </div>
-            </div>
             <div className="pilar">
               <div className="pilar-icono">📊</div>
               <h3>Data Analytics &amp; BI</h3>
@@ -208,6 +195,20 @@ export default function Inicio() {
                 <span>Power BI</span><span>SQL</span><span>PostgreSQL</span><span>R</span>
                 <span>Python</span><span>Metabase</span><span>n8n</span><span>IA (Claude)</span>
                 <span>Next.js</span><span>Supabase</span>
+              </div>
+            </div>
+            <div className="pilar">
+              <div className="pilar-icono">🧮</div>
+              <h3>Controlling Financiero</h3>
+              <ul>
+                <li>Consolidación y control presupuestario; seguimiento de desviaciones</li>
+                <li>Análisis de rentabilidad: ratios, márgenes y cuenta de resultados por unidad de negocio</li>
+                <li>Estudios de viabilidad económica de licitaciones y proyectos</li>
+                <li>Reporting ejecutivo de KPIs a Dirección General</li>
+                <li>Forecast, cierre mensual y apoyo a auditorías</li>
+              </ul>
+              <div className="badges">
+                <span>Excel</span><span>SAP BI</span><span>Odoo ERP</span><span>Power BI</span>
               </div>
             </div>
           </div>

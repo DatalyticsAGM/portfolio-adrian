@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Adrián Gallardo — Financial Controller & Data Analyst',
+  title: 'Adrián Gallardo — Data Analyst & Business Intelligence',
   description:
-    'Financial controller and data analyst based in Alicante, Spain: budget control, profitability analysis, executive reporting and Business Intelligence with Power BI, SQL, R and Python.'
+    'Data analyst and Business Intelligence professional based in Alicante, Spain: Power BI dashboards, ETL with SQL and Python, Machine Learning and reporting. Backed by financial management control.'
 };
 
 const LINKEDIN_URL = 'https://www.linkedin.com/in/adriangallardomu%C3%B1oz/';
@@ -156,11 +156,11 @@ export default function Home() {
             <p className="hero-saludo">Hi, I’m</p>
             <h1>Adrián Gallardo</h1>
             <h2>
-              Financial Controller <span className="amp">&amp;</span> Data Analyst
+              Data Analyst <span className="amp">&amp;</span> Business Intelligence
             </h2>
             <p className="hero-frase">
-              I turn data into business decisions: budget control, executive reporting and
-              Business Intelligence with Power BI, SQL and R.
+              I turn data into business decisions: Power BI dashboards, ETL with SQL and Python,
+              and Machine Learning. Backed by a solid foundation in financial management control.
             </p>
             <p className="hero-ubicacion">📍 Alicante, Spain · Open to new opportunities</p>
             <div className="hero-botones">
@@ -180,24 +180,10 @@ export default function Home() {
         <div className="contenedor">
           <h2 className="titulo-seccion">One profile, two specialities</h2>
           <p className="subtitulo-seccion">
-            An unusual combination: the financial rigour of a controller and the technical
-            toolkit of a data analyst.
+            A data analyst with an unusual edge: the business perspective of a financial
+            controller. I don’t just build the dashboard — I understand what it means for the P&amp;L.
           </p>
           <div className="pilares">
-            <div className="pilar">
-              <div className="pilar-icono">🧮</div>
-              <h3>Financial Controlling</h3>
-              <ul>
-                <li>Budget consolidation and control; variance tracking</li>
-                <li>Profitability analysis: ratios, margins and P&amp;L by business unit</li>
-                <li>Economic feasibility studies for tenders and projects</li>
-                <li>Executive KPI reporting to General Management</li>
-                <li>Forecasting, monthly closing and audit support</li>
-              </ul>
-              <div className="badges">
-                <span>Excel</span><span>SAP BI</span><span>Odoo ERP</span><span>Power BI</span>
-              </div>
-            </div>
             <div className="pilar">
               <div className="pilar-icono">📊</div>
               <h3>Data Analytics &amp; BI</h3>
@@ -213,6 +199,20 @@ export default function Home() {
                 <span>Power BI</span><span>SQL</span><span>PostgreSQL</span><span>R</span>
                 <span>Python</span><span>Metabase</span><span>n8n</span><span>AI (Claude)</span>
                 <span>Next.js</span><span>Supabase</span>
+              </div>
+            </div>
+            <div className="pilar">
+              <div className="pilar-icono">🧮</div>
+              <h3>Financial Controlling</h3>
+              <ul>
+                <li>Budget consolidation and control; variance tracking</li>
+                <li>Profitability analysis: ratios, margins and P&amp;L by business unit</li>
+                <li>Economic feasibility studies for tenders and projects</li>
+                <li>Executive KPI reporting to General Management</li>
+                <li>Forecasting, monthly closing and audit support</li>
+              </ul>
+              <div className="badges">
+                <span>Excel</span><span>SAP BI</span><span>Odoo ERP</span><span>Power BI</span>
               </div>
             </div>
           </div>
