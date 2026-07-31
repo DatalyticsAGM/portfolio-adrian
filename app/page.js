@@ -65,7 +65,7 @@ const proyectos = [
   {
     titulo: 'TFM — Sistema Integral de BI para Altadis',
     descripcion:
-      'Del dato a la decisión: ETL en R, Data Warehouse en PostgreSQL (modelo en estrella) y dashboards ejecutivos en Power BI con clustering y modelos predictivos.',
+      'Del dato a la decisión: ETL en R, Data Warehouse en PostgreSQL (modelo en estrella) y dashboards ejecutivos en Power BI con clustering y modelos predictivos. Calificación: 8,5/10.',
     etiquetas: ['R', 'PostgreSQL', 'Power BI', 'Machine Learning'],
     imagen: '/images/logo-imperial-altadis.jpg',
     href: '/tfm-altadis/'

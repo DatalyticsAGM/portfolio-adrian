@@ -70,7 +70,7 @@ const proyectos = [
   {
     titulo: 'Master’s Thesis — End-to-End BI System for Altadis',
     descripcion:
-      'From data to decision: ETL in R, PostgreSQL Data Warehouse (star schema) and executive Power BI dashboards with clustering and predictive models.',
+      'From data to decision: ETL in R, PostgreSQL Data Warehouse (star schema) and executive Power BI dashboards with clustering and predictive models. Grade: 8.5/10.',
     etiquetas: ['R', 'PostgreSQL', 'Power BI', 'Machine Learning'],
     imagen: '/images/logo-imperial-altadis.jpg',
     href: '/en/tfm-altadis/'
