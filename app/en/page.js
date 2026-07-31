@@ -178,43 +178,33 @@ export default function Home() {
 
       <section className="seccion" id="perfiles">
         <div className="contenedor">
-          <h2 className="titulo-seccion">One profile, two specialities</h2>
+          <h2 className="titulo-seccion">Data Analytics &amp; Business Intelligence</h2>
           <p className="subtitulo-seccion">
-            A data analyst with an unusual edge: the business perspective of a financial
-            controller. I don’t just build the dashboard — I understand what it means for the P&amp;L.
+            My speciality: turning data into decisions. Dashboards, ETL, modelling and Machine
+            Learning so the business decides on evidence, not intuition.
           </p>
-          <div className="pilares">
-            <div className="pilar">
-              <div className="pilar-icono">📊</div>
-              <h3>Data Analytics &amp; BI</h3>
-              <ul>
-                <li>Interactive dashboards and data storytelling</li>
-                <li>ETL and modelling: Data Warehouse, optimised SQL queries</li>
-                <li>Statistical analysis and Machine Learning (clustering, predictive models)</li>
-                <li>Process and data-flow automation (Power Query, n8n)</li>
-                <li>AI-powered web development: Next.js, Supabase and assistants like Claude</li>
-                <li>Reporting platform administration and user training</li>
-              </ul>
-              <div className="badges">
-                <span>Power BI</span><span>SQL</span><span>PostgreSQL</span><span>R</span>
-                <span>Python</span><span>Metabase</span><span>n8n</span><span>AI (Claude)</span>
-                <span>Next.js</span><span>Supabase</span>
-              </div>
+          <div className="especialidad-data">
+            <ul className="skills-data">
+              <li>Interactive dashboards and data storytelling</li>
+              <li>ETL and modelling: Data Warehouse, optimised SQL queries</li>
+              <li>Statistical analysis and Machine Learning (clustering, predictive models)</li>
+              <li>KPI reporting and dashboards for decision-making</li>
+              <li>Process and data-flow automation (Power Query, n8n)</li>
+              <li>AI-powered data web apps: Next.js, Supabase and Claude</li>
+            </ul>
+            <div className="badges">
+              <span>Power BI</span><span>SQL</span><span>PostgreSQL</span><span>R</span>
+              <span>Python</span><span>Metabase</span><span>ETL</span><span>Machine Learning</span>
+              <span>n8n</span><span>AI (Claude)</span><span>Next.js</span><span>Supabase</span>
             </div>
-            <div className="pilar">
-              <div className="pilar-icono">🧮</div>
-              <h3>Financial Controlling</h3>
-              <ul>
-                <li>Budget consolidation and control; variance tracking</li>
-                <li>Profitability analysis: ratios, margins and P&amp;L by business unit</li>
-                <li>Economic feasibility studies for tenders and projects</li>
-                <li>Executive KPI reporting to General Management</li>
-                <li>Forecasting, monthly closing and audit support</li>
-              </ul>
-              <div className="badges">
-                <span>Excel</span><span>SAP BI</span><span>Odoo ERP</span><span>Power BI</span>
-              </div>
-            </div>
+          </div>
+          <div className="plus-financiero">
+            <span className="plus-icono">➕</span>
+            <p>
+              <strong>An unusual edge:</strong> my background in financial management control
+              (budgets, profitability and executive reporting) lets me understand the business
+              behind each metric and its impact on the P&amp;L.
+            </p>
           </div>
         </div>
       </section>

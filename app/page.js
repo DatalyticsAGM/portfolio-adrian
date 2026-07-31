@@ -173,44 +173,33 @@ export default function Inicio() {
 
       <section className="seccion" id="perfiles">
         <div className="contenedor">
-          <h2 className="titulo-seccion">Un perfil, dos especialidades</h2>
+          <h2 className="titulo-seccion">Análisis de Datos &amp; Business Intelligence</h2>
           <p className="subtitulo-seccion">
-            Analista de datos con una ventaja poco habitual: la visión de negocio de un controller
-            financiero. No solo construyo el dashboard, entiendo qué significa para la cuenta de
-            resultados.
+            Mi especialidad: convertir datos en decisiones. Dashboards, ETL, modelado y Machine
+            Learning para que el negocio decida con evidencia, no con intuición.
           </p>
-          <div className="pilares">
-            <div className="pilar">
-              <div className="pilar-icono">📊</div>
-              <h3>Data Analytics &amp; BI</h3>
-              <ul>
-                <li>Dashboards interactivos y storytelling con datos</li>
-                <li>ETL y modelado: Data Warehouse, consultas SQL optimizadas</li>
-                <li>Análisis estadístico y Machine Learning (clustering, modelos predictivos)</li>
-                <li>Automatización de procesos y flujos de datos (Power Query, n8n)</li>
-                <li>Desarrollo de aplicaciones web con IA: Next.js, Supabase y asistentes como Claude</li>
-                <li>Administración de plataformas de reporting y formación a usuarios</li>
-              </ul>
-              <div className="badges">
-                <span>Power BI</span><span>SQL</span><span>PostgreSQL</span><span>R</span>
-                <span>Python</span><span>Metabase</span><span>n8n</span><span>IA (Claude)</span>
-                <span>Next.js</span><span>Supabase</span>
-              </div>
+          <div className="especialidad-data">
+            <ul className="skills-data">
+              <li>Dashboards interactivos y storytelling con datos</li>
+              <li>ETL y modelado: Data Warehouse, consultas SQL optimizadas</li>
+              <li>Análisis estadístico y Machine Learning (clustering, modelos predictivos)</li>
+              <li>Reporting de KPIs y cuadros de mando para la toma de decisiones</li>
+              <li>Automatización de procesos y flujos de datos (Power Query, n8n)</li>
+              <li>Desarrollo de aplicaciones web de datos con IA: Next.js, Supabase y Claude</li>
+            </ul>
+            <div className="badges">
+              <span>Power BI</span><span>SQL</span><span>PostgreSQL</span><span>R</span>
+              <span>Python</span><span>Metabase</span><span>ETL</span><span>Machine Learning</span>
+              <span>n8n</span><span>IA (Claude)</span><span>Next.js</span><span>Supabase</span>
             </div>
-            <div className="pilar">
-              <div className="pilar-icono">🧮</div>
-              <h3>Controlling Financiero</h3>
-              <ul>
-                <li>Consolidación y control presupuestario; seguimiento de desviaciones</li>
-                <li>Análisis de rentabilidad: ratios, márgenes y cuenta de resultados por unidad de negocio</li>
-                <li>Estudios de viabilidad económica de licitaciones y proyectos</li>
-                <li>Reporting ejecutivo de KPIs a Dirección General</li>
-                <li>Forecast, cierre mensual y apoyo a auditorías</li>
-              </ul>
-              <div className="badges">
-                <span>Excel</span><span>SAP BI</span><span>Odoo ERP</span><span>Power BI</span>
-              </div>
-            </div>
+          </div>
+          <div className="plus-financiero">
+            <span className="plus-icono">➕</span>
+            <p>
+              <strong>Un plus poco habitual:</strong> mi base en control de gestión financiero
+              (presupuestos, rentabilidad y reporting a dirección) me permite entender el negocio
+              detrás de cada dato y su impacto en la cuenta de resultados.
+            </p>
           </div>
         </div>
       </section>

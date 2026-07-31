@@ -412,6 +412,35 @@ img { max-width: 100%; height: auto; display: block; }
   border-radius: 999px;
 }
 
+/* ---------- Especialidad data (portada v3) ---------- */
+.especialidad-data {
+  background: var(--gris-fondo);
+  border-radius: 16px;
+  padding: 2.2rem 2.4rem;
+  border-top: 5px solid var(--azul);
+  margin-top: 2.5rem;
+}
+.skills-data {
+  columns: 2;
+  column-gap: 2.5rem;
+  padding-left: 1.2rem;
+  color: var(--gris-texto);
+  font-size: 0.97rem;
+}
+.skills-data li { margin-bottom: 0.7rem; break-inside: avoid; }
+.plus-financiero {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-top: 1.6rem;
+  background: var(--azul-claro);
+  border-radius: 12px;
+  padding: 1.2rem 1.6rem;
+}
+.plus-financiero .plus-icono { font-size: 1.3rem; line-height: 1.4; }
+.plus-financiero p { color: var(--azul-oscuro); font-size: 0.95rem; margin: 0; }
+.plus-financiero strong { color: var(--azul-oscuro); }
+
 /* ---------- Timeline experiencia ---------- */
 .timeline { margin-top: 2.5rem; position: relative; padding-left: 1.6rem; }
 .timeline::before {
@@ -510,6 +539,8 @@ img { max-width: 100%; height: auto; display: block; }
   .hero-frase { margin-left: auto; margin-right: auto; }
   .hero-botones, .contacto-botones { justify-content: center; }
   .pilares { grid-template-columns: 1fr; }
+  .skills-data { columns: 1; }
+  .especialidad-data { padding: 1.6rem 1.4rem; }
   .nav {
     display: none;
     position: absolute;
