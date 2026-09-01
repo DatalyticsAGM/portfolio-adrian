@@ -516,6 +516,71 @@ img { max-width: 100%; height: auto; display: block; }
   background: var(--blanco);
 }
 
+/* ---------- Base de datos (NetflixDB) ---------- */
+.db-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.4rem;
+  margin-top: 2.5rem;
+  align-items: start;
+}
+.db-tabla {
+  background: var(--blanco);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--linea, #dde4ee);
+}
+.db-tabla-cab {
+  background: var(--azul-oscuro);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 0.7rem 1rem;
+  font-size: 0.95rem;
+}
+.db-tabla table { width: 100%; border-collapse: collapse; }
+.db-tabla td { padding: 0.4rem 1rem; font-size: 0.85rem; border-top: 1px solid #eef1f6; }
+.db-col { font-family: 'Consolas', 'Courier New', monospace; color: var(--negro); }
+.db-tipo { color: #2563eb; font-family: 'Consolas', monospace; font-size: 0.8rem; }
+.db-key { text-align: right; color: #b0873a; font-weight: 700; font-size: 0.72rem; white-space: nowrap; }
+
+/* ---------- Ejercicios SQL ---------- */
+.ejercicios { display: flex; flex-direction: column; gap: 2rem; margin-top: 2.5rem; }
+.ejercicio {
+  background: var(--blanco);
+  border-radius: 16px;
+  padding: 1.8rem 2rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border-left: 5px solid var(--azul);
+}
+.ejercicio-cab { margin-bottom: 0.8rem; }
+.ejercicio-num {
+  font-size: 0.78rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--azul); display: block; margin-bottom: 0.2rem;
+}
+.ejercicio-cab h3 { font-size: 1.25rem; }
+.ejercicio-enunciado { color: var(--gris-texto); font-size: 0.97rem; margin-bottom: 0.9rem; }
+.ejercicio-expl { color: var(--gris-texto); font-size: 0.93rem; margin-top: 1rem; }
+.ejercicio-expl strong { color: var(--azul-oscuro); }
+
+.sql-bloque {
+  background: #0d1a2b;
+  color: #e6edf3;
+  border-radius: 12px;
+  padding: 1.3rem 1.5rem;
+  overflow-x: auto;
+  margin-top: 1rem;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.sql-bloque code { font-family: inherit; white-space: pre; }
+.sql-kw { color: #6ea8ff; font-weight: 700; }
+.sql-str { color: #7ee787; }
+.sql-num { color: #f0a868; }
+.sql-com { color: #8b98a5; font-style: italic; }
+
 /* ---------- Contacto ---------- */
 .seccion.contacto {
   background: var(--azul-oscuro);

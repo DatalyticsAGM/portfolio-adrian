@@ -79,6 +79,15 @@ const proyectos = [
     href: '/tfg-leroy-merlin/'
   },
   {
+    titulo: 'Certificación SQL — Ejercicios NetflixDB',
+    descripcion:
+      'Certificación SQL (Udemy) y ejercicios resueltos sobre NetflixDB: consultas con JOIN, agregaciones y subconsultas, cada una con su query y explicación.',
+    etiquetas: ['SQL', 'Subconsultas', 'JOIN'],
+    imagen: '/images/diploma-sql.png',
+    href: '/certificacion-sql/',
+    cubrir: true
+  },
+  {
     titulo: 'JAKS — Automatizaciones para PyMEs',
     descripcion:
       'Mi marca de automatización y soluciones digitales: chatbots de IA en WhatsApp, flujos automatizados, integraciones y dashboards para que los negocios escalen sin más horas de trabajo.',

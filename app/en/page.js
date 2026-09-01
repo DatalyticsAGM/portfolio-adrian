@@ -84,6 +84,15 @@ const proyectos = [
     href: '/en/tfg-leroy-merlin/'
   },
   {
+    titulo: 'SQL Certification — NetflixDB exercises',
+    descripcion:
+      'SQL certification (Udemy) and solved exercises on NetflixDB: JOINs, aggregations and subqueries, each with its query and explanation.',
+    etiquetas: ['SQL', 'Subqueries', 'JOIN'],
+    imagen: '/images/diploma-sql.png',
+    href: '/en/certificacion-sql/',
+    cubrir: true
+  },
+  {
     titulo: 'JAKS — Automation for SMEs',
     descripcion:
       'My automation and digital solutions brand: AI chatbots on WhatsApp, automated workflows, integrations and dashboards so businesses can scale without extra working hours.',
