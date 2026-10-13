@@ -169,6 +169,9 @@ export default function Inicio() {
             <p className="hero-ubicacion">📍 Alicante, España · Disponible para nuevos retos</p>
             <div className="hero-botones">
               <a href="#proyectos" className="boton grande">Ver proyectos</a>
+              <a href="https://github.com/DatalyticsAGM" target="_blank" rel="noopener noreferrer" className="boton grande">
+                Ver GitHub
+              </a>
               <a href={CV_URL} download className="boton grande secundario">
                 Descargar CV
               </a>
