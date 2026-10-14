@@ -12,7 +12,7 @@ const experiencia = [
   {
     puesto: 'Financial Controller',
     empresa: 'Grupo Vectalia',
-    fechas: 'Jan 2026 — May 2026 · Alicante · Maternity-leave cover',
+    fechas: 'Feb 2026 — May 2026 · Alicante · Maternity-leave cover',
     puntos: [
       'Group budget consolidation: validated budgets against historical data and closely monitored variances.',
       'Profitability analysis by business unit: financial ratios, operating margins and P&L insights.',
