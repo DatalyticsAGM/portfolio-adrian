@@ -3,7 +3,7 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Adrián Gallardo — Data Analyst & Business Intelligence',
   description:
-    'Data analyst and Business Intelligence professional based in Alicante, Spain: Power BI dashboards, ETL with SQL and Python, Machine Learning and reporting. Backed by financial management control.'
+    'Data analyst and Business Intelligence professional based in Alicante, Spain: Power BI dashboards, ETL with Power Query and SQL, and reporting for decision-making. Backed by management control.'
 };
 
 const LINKEDIN_URL = 'https://www.linkedin.com/in/adriangallardomu%C3%B1oz/';
@@ -168,8 +168,8 @@ export default function Home() {
               Data Analyst <span className="amp">&amp;</span> Business Intelligence
             </h2>
             <p className="hero-frase">
-              I turn data into business decisions: Power BI dashboards, ETL with SQL and Python,
-              and Machine Learning. Backed by a solid foundation in financial management control.
+              I turn data into business decisions: Power BI dashboards, ETL with Power Query and
+              SQL, and reporting for decision-making. Backed by a foundation in management control.
             </p>
             <p className="hero-ubicacion">📍 Alicante, Spain · Open to new opportunities</p>
             <div className="hero-botones">
@@ -192,31 +192,23 @@ export default function Home() {
         <div className="contenedor">
           <h2 className="titulo-seccion">Data Analytics &amp; Business Intelligence</h2>
           <p className="subtitulo-seccion">
-            My speciality: turning data into decisions. Dashboards, ETL, modelling and Machine
-            Learning so the business decides on evidence, not intuition.
+            My speciality: turning data into decisions. Dashboards, ETL and modelling with Power
+            Query so the business decides on evidence, not intuition.
           </p>
           <div className="especialidad-data">
             <ul className="skills-data">
-              <li>Interactive dashboards and data storytelling</li>
-              <li>ETL and modelling: Data Warehouse, optimised SQL queries</li>
-              <li>Statistical analysis and Machine Learning (clustering, predictive models)</li>
+              <li>Interactive dashboards and data storytelling in Power BI</li>
+              <li>ETL and data modelling with Power Query and SQL</li>
               <li>KPI reporting and dashboards for decision-making</li>
+              <li>Advanced Excel: pivot tables and data cleaning</li>
               <li>Process and data-flow automation (Power Query, n8n)</li>
-              <li>AI-powered data web apps: Next.js, Supabase and Claude</li>
+              <li>Statistical analysis in R and first hands-on Machine Learning (thesis)</li>
             </ul>
             <div className="badges">
-              <span>Power BI</span><span>SQL</span><span>PostgreSQL</span><span>R</span>
-              <span>Python</span><span>Metabase</span><span>ETL</span><span>Machine Learning</span>
-              <span>n8n</span><span>AI (Claude)</span><span>Next.js</span><span>Supabase</span>
+              <span>Power BI</span><span>Advanced Excel</span><span>Power Query</span><span>SQL</span>
+              <span>PostgreSQL</span><span>R</span><span>Metabase</span><span>ETL</span>
+              <span>n8n</span><span>AI (Claude)</span>
             </div>
-          </div>
-          <div className="plus-financiero">
-            <span className="plus-icono">➕</span>
-            <p>
-              <strong>An unusual edge:</strong> my background in financial management control
-              (budgets, profitability and executive reporting) lets me understand the business
-              behind each metric and its impact on the P&amp;L.
-            </p>
           </div>
         </div>
       </section>

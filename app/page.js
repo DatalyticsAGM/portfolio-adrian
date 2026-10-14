@@ -163,8 +163,8 @@ export default function Inicio() {
               Data Analyst <span className="amp">&amp;</span> Business Intelligence
             </h2>
             <p className="hero-frase">
-              Convierto los datos en decisiones de negocio: dashboards en Power BI, ETL con SQL y
-              Python, y Machine Learning. Con una sólida base en control de gestión financiero.
+              Convierto los datos en decisiones de negocio: dashboards en Power BI, ETL con Power
+              Query y SQL, y reporting para la toma de decisiones. Con base en control de gestión.
             </p>
             <p className="hero-ubicacion">📍 Alicante, España · Disponible para nuevos retos</p>
             <div className="hero-botones">
@@ -187,31 +187,23 @@ export default function Inicio() {
         <div className="contenedor">
           <h2 className="titulo-seccion">Análisis de Datos &amp; Business Intelligence</h2>
           <p className="subtitulo-seccion">
-            Mi especialidad: convertir datos en decisiones. Dashboards, ETL, modelado y Machine
-            Learning para que el negocio decida con evidencia, no con intuición.
+            Mi especialidad: convertir datos en decisiones. Dashboards, ETL y modelado con Power
+            Query para que el negocio decida con evidencia, no con intuición.
           </p>
           <div className="especialidad-data">
             <ul className="skills-data">
-              <li>Dashboards interactivos y storytelling con datos</li>
-              <li>ETL y modelado: Data Warehouse, consultas SQL optimizadas</li>
-              <li>Análisis estadístico y Machine Learning (clustering, modelos predictivos)</li>
+              <li>Dashboards interactivos y storytelling con datos en Power BI</li>
+              <li>ETL y modelado de datos con Power Query y SQL</li>
               <li>Reporting de KPIs y cuadros de mando para la toma de decisiones</li>
+              <li>Excel avanzado: tablas dinámicas y limpieza de datos</li>
               <li>Automatización de procesos y flujos de datos (Power Query, n8n)</li>
-              <li>Desarrollo de aplicaciones web de datos con IA: Next.js, Supabase y Claude</li>
+              <li>Análisis estadístico en R y primeras prácticas de Machine Learning (TFG)</li>
             </ul>
             <div className="badges">
-              <span>Power BI</span><span>SQL</span><span>PostgreSQL</span><span>R</span>
-              <span>Python</span><span>Metabase</span><span>ETL</span><span>Machine Learning</span>
-              <span>n8n</span><span>IA (Claude)</span><span>Next.js</span><span>Supabase</span>
+              <span>Power BI</span><span>Excel avanzado</span><span>Power Query</span><span>SQL</span>
+              <span>PostgreSQL</span><span>R</span><span>Metabase</span><span>ETL</span>
+              <span>n8n</span><span>IA (Claude)</span>
             </div>
-          </div>
-          <div className="plus-financiero">
-            <span className="plus-icono">➕</span>
-            <p>
-              <strong>Un plus poco habitual:</strong> mi base en control de gestión financiero
-              (presupuestos, rentabilidad y reporting a dirección) me permite entender el negocio
-              detrás de cada dato y su impacto en la cuenta de resultados.
-            </p>
           </div>
         </div>
       </section>
