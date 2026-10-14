@@ -102,6 +102,16 @@ const gruposProyectos = [
         href: '/en/ctsa-field-os/'
       },
       {
+        titulo: 'AI Voice Agent — Appointment booking',
+        descripcion:
+          'AI voice agent (Vapi + n8n) that answers a dental clinic’s phone and books appointments automatically: it understands the patient, checks the calendar and reserves the free slot. Real demo on AV Dental.',
+        etiquetas: ['AI', 'Vapi', 'n8n', 'Automation'],
+        imagen: '/images/vapi-agente-voz.png',
+        href: 'https://www.linkedin.com/feed/update/urn:li:activity:7512770755596754944/',
+        externo: true,
+        cubrir: true
+      },
+      {
         titulo: 'JAKS — Automation for SMEs',
         descripcion:
           'My automation and digital solutions brand: AI chatbots on WhatsApp, automated workflows, integrations and dashboards so businesses can scale without extra working hours.',
@@ -127,7 +137,7 @@ const gruposProyectos = [
       {
         titulo: 'Dashboards & automations',
         descripcion:
-          'HR dashboard, database automation with Power Query, a B2B portal and a world population & life expectancy analysis.',
+          'HR dashboard, database automation with Power Query and a world population & life expectancy analysis.',
         etiquetas: ['Power BI', 'Power Query'],
         imagen: '/images/dash-rrhh.gif',
         href: '/en/dashboards/',
@@ -151,8 +161,8 @@ const gruposProyectos = [
     ]
   },
   {
-    grupo: 'Other projects · Development & product',
-    sub: 'Web development and digital product.',
+    grupo: 'Other projects · Web development',
+    sub: 'Web design and development.',
     items: [
       {
         titulo: 'AV Dental Clinic website',
@@ -163,15 +173,6 @@ const gruposProyectos = [
         href: 'https://avgrupoelcampello.com',
         externo: true,
         cubrir: true
-      },
-      {
-        titulo: 'Racks Connect — Startup-investor matchmaking',
-        descripcion:
-          '"Tinder for founders and investors" web app built at Racks House (Madrid): project scoring, real-interest signals and filters by sector, stage and ticket.',
-        etiquetas: ['Product', 'Web app'],
-        imagen: '/images/logos-tecnologias.png',
-        href: 'https://racksconnect.lovable.app',
-        externo: true
       }
     ]
   }

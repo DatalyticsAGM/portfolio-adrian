@@ -97,6 +97,16 @@ const gruposProyectos = [
         href: '/ctsa-field-os/'
       },
       {
+        titulo: 'Agente de voz IA — Reserva de citas',
+        descripcion:
+          'Agente de voz con IA (Vapi + n8n) que atiende el teléfono de una clínica dental y agenda las citas de forma automática: entiende al paciente, consulta la agenda y reserva el hueco libre. Demo real sobre AV Dental.',
+        etiquetas: ['IA', 'Vapi', 'n8n', 'Automatización'],
+        imagen: '/images/vapi-agente-voz.png',
+        href: 'https://www.linkedin.com/feed/update/urn:li:activity:7512770755596754944/',
+        externo: true,
+        cubrir: true
+      },
+      {
         titulo: 'JAKS — Automatizaciones para PyMEs',
         descripcion:
           'Mi marca de automatización y soluciones digitales: chatbots de IA en WhatsApp, flujos automatizados, integraciones y dashboards para que los negocios escalen sin más horas de trabajo.',
@@ -122,7 +132,7 @@ const gruposProyectos = [
       {
         titulo: 'Dashboards y automatizaciones',
         descripcion:
-          'Dashboard de RRHH, automatización de bases de datos con Power Query, portal B2B y análisis de población mundial.',
+          'Dashboard de RRHH, automatización de bases de datos con Power Query y análisis de población mundial.',
         etiquetas: ['Power BI', 'Power Query'],
         imagen: '/images/dash-rrhh.gif',
         href: '/dashboards/',
@@ -146,8 +156,8 @@ const gruposProyectos = [
     ]
   },
   {
-    grupo: 'Otros proyectos · Desarrollo y producto',
-    sub: 'Desarrollo web y producto digital.',
+    grupo: 'Otros proyectos · Desarrollo web',
+    sub: 'Diseño y desarrollo web.',
     items: [
       {
         titulo: 'Web Clínica AV Dental',
@@ -158,15 +168,6 @@ const gruposProyectos = [
         href: 'https://avgrupoelcampello.com',
         externo: true,
         cubrir: true
-      },
-      {
-        titulo: 'Racks Connect — Matchmaking startups-inversores',
-        descripcion:
-          'Web app tipo "Tinder para emprendedores e inversores" creada en Racks House (Madrid): scoring de proyectos, señales de interés real y filtros por sector, etapa y ticket.',
-        etiquetas: ['Producto', 'Web app'],
-        imagen: '/images/logos-tecnologias.png',
-        href: 'https://racksconnect.lovable.app',
-        externo: true
       }
     ]
   }

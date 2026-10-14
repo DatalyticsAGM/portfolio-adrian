@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Dashboards — Adrián Gallardo',
   description:
-    'Dashboards and automations: Human Resources, Power Query, a B2B portal and world population with life expectancy.'
+    'Dashboards and automations: Human Resources, Power Query and world population with life expectancy.'
 };
 
 export default function Dashboards() {
@@ -41,21 +41,6 @@ export default function Dashboards() {
       </section>
 
       <section className="seccion">
-        <div className="contenedor">
-          <h2 className="titulo-seccion">B2B Portal</h2>
-          <p className="subtitulo-seccion">Demo of a B2B portal with user access.</p>
-          <div className="video-marco">
-            <iframe
-              src="https://drive.google.com/file/d/1AE_HKd4kRqvxsIgZzwOD5UvIfkm7we_b/preview"
-              title="B2B portal demo"
-              allow="autoplay"
-              allowFullScreen
-            />
-          </div>
-        </div>
-      </section>
-
-      <section className="seccion gris">
         <div className="contenedor">
           <h2 className="titulo-seccion">World Population & Life Expectancy Dashboard</h2>
           <p className="subtitulo-seccion">Visual analysis of population by area and life expectancy worldwide.</p>

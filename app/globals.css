@@ -295,10 +295,13 @@ img { max-width: 100%; height: auto; display: block; }
 .imagen-destacada {
   max-width: 900px;
   margin: 2rem auto 0;
+  display: flex;
+  justify-content: center;
 }
 .imagen-destacada img {
   border-radius: 14px;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+  margin: 0 auto;
 }
 .nota { text-align: center; font-size: 0.8rem; color: var(--gris-texto); margin-top: 0.8rem; font-style: italic; }
 

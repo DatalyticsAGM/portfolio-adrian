@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Dashboards — Adrián Gallardo',
   description:
-    'Dashboards y automatizaciones: Recursos Humanos, PowerQuery, Portal B2B y población mundial con esperanza de vida.'
+    'Dashboards y automatizaciones: Recursos Humanos, PowerQuery y población mundial con esperanza de vida.'
 };
 
 export default function Dashboards() {
@@ -43,23 +43,6 @@ export default function Dashboards() {
       </section>
 
       <section className="seccion">
-        <div className="contenedor">
-          <h2 className="titulo-seccion">Portal B2B</h2>
-          <p className="subtitulo-seccion">
-            Demostración de un portal B2B con acceso de usuarios.
-          </p>
-          <div className="video-marco">
-            <iframe
-              src="https://drive.google.com/file/d/1AE_HKd4kRqvxsIgZzwOD5UvIfkm7we_b/preview"
-              title="Demostración del Portal B2B"
-              allow="autoplay"
-              allowFullScreen
-            />
-          </div>
-        </div>
-      </section>
-
-      <section className="seccion gris">
         <div className="contenedor">
           <h2 className="titulo-seccion">Dashboard Población Mundial y Esperanza de Vida</h2>
           <p className="subtitulo-seccion">
