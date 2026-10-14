@@ -49,11 +49,11 @@ const experiencia = [
     empresa: 'NTT Data',
     fechas: 'Dec 2023 — Nov 2024 · Alicante',
     puntos: [
-      'Back office for Exchange-Traded Derivatives (ETDs): daily and monthly settlement, reconciliation and closing control in domestic and international markets.',
-      'ETL processes with SQL and daily/weekly/monthly data exploitation with Power BI and pivot tables.',
-      'Prepared financial reports and liaised with the client and business teams.'
+      'Settlement, reconciliation and closing control of Exchange-Traded Derivatives (ETDs) in domestic and international markets.',
+      'Daily, weekly and monthly reporting of activity data with advanced Excel and pivot tables.',
+      'Knowledge of the financial product and of the operations of a Tier 1 banking entity.'
     ],
-    herramientas: ['SQL', 'Power BI', 'Excel']
+    herramientas: ['Advanced Excel', 'Pivot tables', 'Financial reporting']
   },
   {
     puesto: 'Sales Specialist',

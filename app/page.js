@@ -44,11 +44,11 @@ const experiencia = [
     empresa: 'NTT Data',
     fechas: 'Dic. 2023 — Nov. 2024 · Alicante',
     puntos: [
-      'Back office de Derivados Listados (ETDs): liquidación diaria y mensual, conciliación y control de cierre de operaciones en mercados nacionales e internacionales.',
-      'Procesos ETL mediante SQL y explotación diaria/semanal/mensual del dato con Power BI y tablas dinámicas.',
-      'Preparación de informes financieros e interlocución con cliente y áreas de negocio.'
+      'Liquidación, conciliación y control de cierre de operaciones de derivados listados (ETDs) en mercados nacionales e internacionales.',
+      'Explotación y reporting del dato de actividad diaria, semanal y mensual con Excel avanzado y tablas dinámicas.',
+      'Conocimiento del producto financiero y de la operativa de una entidad bancaria Tier 1.'
     ],
-    herramientas: ['SQL', 'Power BI', 'Excel']
+    herramientas: ['Excel avanzado', 'Tablas dinámicas', 'Reporting financiero']
   },
   {
     puesto: 'Especialista en Ventas',
