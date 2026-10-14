@@ -18,7 +18,7 @@ export default function Cv() {
             Consúltalo aquí mismo o descárgalo en el idioma que prefieras.
           </p>
           <div className="contacto-botones" style={{ marginBottom: '1rem' }}>
-            <a href="/docs/cv-adrian-es.pdf" download className="boton grande">
+            <a href="/docs/cv-adrian-es.pdf" download="CV_Adrian_Gallardo.pdf" className="boton grande">
               Descargar CV en Español
             </a>
             <a href="/docs/cv-adrian-en.pdf" download className="boton grande secundario" style={{ borderColor: 'var(--azul-oscuro)', color: 'var(--azul-oscuro)' }}>

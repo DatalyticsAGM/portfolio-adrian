@@ -172,7 +172,7 @@ export default function Inicio() {
               <a href="https://github.com/DatalyticsAGM" target="_blank" rel="noopener noreferrer" className="boton grande">
                 Ver GitHub
               </a>
-              <a href={CV_URL} download className="boton grande secundario">
+              <a href={CV_URL} download="CV_Adrian_Gallardo.pdf" className="boton grande secundario">
                 Descargar CV
               </a>
             </div>
