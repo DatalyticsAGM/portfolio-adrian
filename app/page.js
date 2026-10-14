@@ -61,93 +61,114 @@ const experiencia = [
   }
 ];
 
-const proyectos = [
+const gruposProyectos = [
   {
-    titulo: 'TFM — Sistema Integral de BI para Altadis',
-    descripcion:
-      'Del dato a la decisión: ETL en R, Data Warehouse en PostgreSQL (modelo en estrella) y dashboards ejecutivos en Power BI con clustering y modelos predictivos. Calificación: 8,5/10.',
-    etiquetas: ['R', 'PostgreSQL', 'Power BI', 'Machine Learning'],
-    imagen: '/images/logo-imperial-altadis.jpg',
-    href: '/tfm-altadis/'
+    grupo: 'Proyectos formativos',
+    sub: 'Mis trabajos académicos de análisis de datos, de principio a fin.',
+    items: [
+      {
+        titulo: 'TFM — Sistema Integral de BI para Altadis',
+        descripcion:
+          'Del dato a la decisión: ETL en R, Data Warehouse en PostgreSQL (modelo en estrella) y dashboards ejecutivos en Power BI con clustering y modelos predictivos. Calificación: 8,5/10.',
+        etiquetas: ['R', 'PostgreSQL', 'Power BI', 'Machine Learning'],
+        imagen: '/images/logo-imperial-altadis.jpg',
+        href: '/tfm-altadis/'
+      },
+      {
+        titulo: 'TFG — Leroy Merlin',
+        descripcion:
+          'Análisis de ventas y valoraciones con R: regresión logística y análisis de texto para reducir las críticas negativas frente a la competencia. Nota: 8.',
+        etiquetas: ['R', 'Excel', 'Estadística'],
+        imagen: '/images/card-leroy.png',
+        href: '/tfg-leroy-merlin/'
+      }
+    ]
   },
   {
-    titulo: 'TFG — Leroy Merlin',
-    descripcion:
-      'Análisis de ventas y valoraciones con R: regresión logística y análisis de texto para reducir las críticas negativas frente a la competencia. Nota: 8.',
-    etiquetas: ['R', 'Excel', 'Estadística'],
-    imagen: '/images/card-leroy.png',
-    href: '/tfg-leroy-merlin/'
+    grupo: 'IA y Automatización',
+    sub: 'Soluciones reales en producción con IA, n8n e integraciones.',
+    items: [
+      {
+        titulo: 'CTSA Field OS — App de seguridad alimentaria',
+        descripcion:
+          'Aplicación web real para CTSA Alimentaria (proyecto de cliente, marca JAKS): digitaliza inspecciones APPCC, muestras, cloro y REVET con firma digital, PDF automático y envío por email.',
+        etiquetas: ['Next.js', 'Supabase', 'n8n', 'IA'],
+        imagen: '/images/ctsa-login.png',
+        href: '/ctsa-field-os/'
+      },
+      {
+        titulo: 'JAKS — Automatizaciones para PyMEs',
+        descripcion:
+          'Mi marca de automatización y soluciones digitales: chatbots de IA en WhatsApp, flujos automatizados, integraciones y dashboards para que los negocios escalen sin más horas de trabajo.',
+        etiquetas: ['Automatización', 'IA', 'n8n'],
+        imagen: '/images/logo-jaks.png',
+        href: 'https://jaks.es',
+        externo: true
+      }
+    ]
   },
   {
-    titulo: 'Certificación SQL — Ejercicios NetflixDB',
-    descripcion:
-      'Certificación SQL (Udemy) y ejercicios resueltos sobre NetflixDB: consultas con JOIN, agregaciones y subconsultas, cada una con su query y explicación.',
-    etiquetas: ['SQL', 'Subconsultas', 'JOIN'],
-    imagen: '/images/diploma-sql.png',
-    href: '/certificacion-sql/',
-    cubrir: true
+    grupo: 'Business Intelligence · Power BI',
+    sub: 'Segmentación, cuadros de mando y automatización del dato.',
+    items: [
+      {
+        titulo: 'Clínica AV Dental — Segmentación en Power BI',
+        descripcion:
+          'Segmentación de clientes para dirigir las campañas de marketing: identificación del público objetivo (mujeres interesadas en servicios estéticos en otoño-invierno) a partir del histórico de pacientes.',
+        etiquetas: ['Power BI', 'R', 'Excel'],
+        imagen: '/images/card-avdental.png',
+        href: '/clinica-avdental/'
+      },
+      {
+        titulo: 'Dashboards y automatizaciones',
+        descripcion:
+          'Dashboard de RRHH, automatización de bases de datos con Power Query, portal B2B y análisis de población mundial.',
+        etiquetas: ['Power BI', 'Power Query'],
+        imagen: '/images/dash-rrhh.gif',
+        href: '/dashboards/',
+        cubrir: true
+      }
+    ]
   },
   {
-    titulo: 'JAKS — Automatizaciones para PyMEs',
-    descripcion:
-      'Mi marca de automatización y soluciones digitales: chatbots de IA en WhatsApp, flujos automatizados, integraciones y dashboards para que los negocios escalen sin más horas de trabajo.',
-    etiquetas: ['Automatización', 'IA', 'n8n'],
-    imagen: '/images/logo-jaks.png',
-    href: 'https://jaks.es',
-    externo: true
+    grupo: 'Certificación',
+    sub: 'Fundamentos de SQL verificables, con las consultas publicadas en GitHub.',
+    items: [
+      {
+        titulo: 'Certificación SQL — Ejercicios NetflixDB',
+        descripcion:
+          'Certificación SQL (Udemy) y ejercicios resueltos sobre NetflixDB: consultas con JOIN, agregaciones y subconsultas, cada una con su query y explicación.',
+        etiquetas: ['SQL', 'Subconsultas', 'JOIN'],
+        imagen: '/images/diploma-sql.png',
+        href: '/certificacion-sql/',
+        cubrir: true
+      }
+    ]
   },
   {
-    titulo: 'Clínica AVdental — Segmentación de clientes',
-    descripcion:
-      'Identificación del público objetivo para campañas de marketing: mujeres interesadas en servicios estéticos en otoño-invierno.',
-    etiquetas: ['R', 'Power BI', 'Excel'],
-    imagen: '/images/card-avdental.png',
-    href: '/clinica-avdental/'
-  },
-  {
-    titulo: 'Web Clínica AV Dental',
-    descripcion:
-      'Diseño y desarrollo de la web real de la clínica: responsive, integración con WhatsApp y Google Maps, SEO y cumplimiento RGPD.',
-    etiquetas: ['Desarrollo web', 'SEO'],
-    imagen: '/images/avd-fachada.jpg',
-    href: 'https://avgrupoelcampello.com',
-    externo: true,
-    cubrir: true
-  },
-  {
-    titulo: 'Web AJ Protect Iberia',
-    descripcion:
-      'Landing corporativa B2B para AJ Protect Iberia, empresa de servicios eléctricos con proyectos en España y Reino Unido: diseño moderno orientado a captación de clientes.',
-    etiquetas: ['Desarrollo web', 'B2B'],
-    imagen: '/images/logo-ajprotect.jpg',
-    href: 'https://ajprotect.com',
-    externo: true
-  },
-  {
-    titulo: 'CTSA Field OS — App de seguridad alimentaria',
-    descripcion:
-      'Aplicación web real para CTSA Alimentaria (proyecto de cliente, marca JAKS): digitaliza inspecciones APPCC, muestras, cloro y REVET con firma digital, PDF automático y envío por email.',
-    etiquetas: ['Next.js', 'Supabase', 'n8n', 'IA'],
-    imagen: '/images/ctsa-login.png',
-    href: '/ctsa-field-os/'
-  },
-  {
-    titulo: 'Dashboards y automatizaciones',
-    descripcion:
-      'Dashboard de RRHH, automatización de bases de datos con Power Query, portal B2B y análisis de población mundial.',
-    etiquetas: ['Power BI', 'Power Query'],
-    imagen: '/images/dash-rrhh.gif',
-    href: '/dashboards/',
-    cubrir: true
-  },
-  {
-    titulo: 'Racks Connect — Matchmaking startups-inversores',
-    descripcion:
-      'Web app tipo "Tinder para emprendedores e inversores" creada en Racks House (Madrid): scoring de proyectos, señales de interés real y filtros por sector, etapa y ticket.',
-    etiquetas: ['Business Intelligence', 'Producto'],
-    imagen: '/images/logos-tecnologias.png',
-    href: 'https://racksconnect.lovable.app',
-    externo: true
+    grupo: 'Otros proyectos · Desarrollo y producto',
+    sub: 'Desarrollo web y producto digital.',
+    items: [
+      {
+        titulo: 'Web Clínica AV Dental',
+        descripcion:
+          'Diseño y desarrollo de la web real de la clínica: responsive, integración con WhatsApp y Google Maps, SEO y cumplimiento RGPD.',
+        etiquetas: ['Desarrollo web', 'SEO'],
+        imagen: '/images/avd-fachada.jpg',
+        href: 'https://avgrupoelcampello.com',
+        externo: true,
+        cubrir: true
+      },
+      {
+        titulo: 'Racks Connect — Matchmaking startups-inversores',
+        descripcion:
+          'Web app tipo "Tinder para emprendedores e inversores" creada en Racks House (Madrid): scoring de proyectos, señales de interés real y filtros por sector, etapa y ticket.',
+        etiquetas: ['Producto', 'Web app'],
+        imagen: '/images/logos-tecnologias.png',
+        href: 'https://racksconnect.lovable.app',
+        externo: true
+      }
+    ]
   }
 ];
 
@@ -240,33 +261,39 @@ export default function Inicio() {
           <h2 className="titulo-seccion">Proyectos</h2>
           <p className="subtitulo-seccion">
             Casos reales contados como lo que son: un problema de negocio, un análisis y un
-            resultado.
+            resultado. Organizados por tipo para que encuentres rápido lo que buscas.
           </p>
-          <div className="grid-tarjetas proyectos">
-            {proyectos.map((p) => (
-              <article className="tarjeta" key={p.titulo}>
-                <div className="imagen">
-                  <img src={p.imagen} alt={p.titulo} className={p.cubrir ? 'cubrir' : ''} />
-                </div>
-                <div className="cuerpo">
-                  <h3>{p.titulo}</h3>
-                  <p className="tarjeta-descripcion">{p.descripcion}</p>
-                  <div className="badges centrado">
-                    {p.etiquetas.map((t) => (
-                      <span key={t}>{t}</span>
-                    ))}
-                  </div>
-                  {p.externo ? (
-                    <a href={p.href} target="_blank" rel="noopener noreferrer" className="boton">
-                      Ver proyecto ↗
-                    </a>
-                  ) : (
-                    <Link href={p.href} className="boton">Ver proyecto</Link>
-                  )}
-                </div>
-              </article>
-            ))}
-          </div>
+          {gruposProyectos.map((g) => (
+            <div className="grupo-proyectos" key={g.grupo}>
+              <h3 className="grupo-proyectos-titulo">{g.grupo}</h3>
+              {g.sub && <p className="grupo-proyectos-sub">{g.sub}</p>}
+              <div className="grid-tarjetas proyectos">
+                {g.items.map((p) => (
+                  <article className="tarjeta" key={p.titulo}>
+                    <div className="imagen">
+                      <img src={p.imagen} alt={p.titulo} className={p.cubrir ? 'cubrir' : ''} />
+                    </div>
+                    <div className="cuerpo">
+                      <h3>{p.titulo}</h3>
+                      <p className="tarjeta-descripcion">{p.descripcion}</p>
+                      <div className="badges centrado">
+                        {p.etiquetas.map((t) => (
+                          <span key={t}>{t}</span>
+                        ))}
+                      </div>
+                      {p.externo ? (
+                        <a href={p.href} target="_blank" rel="noopener noreferrer" className="boton">
+                          Ver proyecto ↗
+                        </a>
+                      ) : (
+                        <Link href={p.href} className="boton">Ver proyecto</Link>
+                      )}
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 

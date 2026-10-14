@@ -483,6 +483,31 @@ img { max-width: 100%; height: auto; display: block; }
 .grid-tarjetas.proyectos { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
 .grid-tarjetas.proyectos .badges { margin-top: 0.2rem; margin-bottom: 0.9rem; }
 
+/* ---------- Grupos de proyectos ---------- */
+.grupo-proyectos { margin-top: 3rem; }
+.grupo-proyectos:first-of-type { margin-top: 2.2rem; }
+.grupo-proyectos-titulo {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--azul-oscuro);
+  margin-bottom: 0.35rem;
+}
+.grupo-proyectos-titulo::before {
+  content: '';
+  width: 28px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--azul);
+  flex-shrink: 0;
+}
+.grupo-proyectos-sub { color: var(--gris-texto); font-size: 0.9rem; margin: 0 0 0.3rem; }
+.grupo-proyectos .grid-tarjetas { margin-top: 1.3rem; }
+
 /* ---------- Formación ---------- */
 .formacion-grid {
   display: grid;
